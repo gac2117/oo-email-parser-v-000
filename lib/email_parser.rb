@@ -13,9 +13,7 @@ class EmailParser
 
   def parse
     data = @email.split(/,\s/)
-    data.each do |i|
-      @email << i 
-    end
+    @email << data 
   end
 
 
