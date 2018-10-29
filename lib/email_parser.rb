@@ -13,7 +13,8 @@ class EmailParser
 
   def parse
     data = @email.split(/,\s/)
-    @email << data 
+    @email << data
+    @email 
   end
 
 
